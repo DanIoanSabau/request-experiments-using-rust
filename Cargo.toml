@@ -1,0 +1,9 @@
+[package]
+name = "request-experiments-using-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.26.0", features = ["full"] }
+reqwest = { version = "0.11.15", features = ["blocking", "json"] }
+error-chain = "0.12.4"
